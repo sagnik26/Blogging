@@ -1,0 +1,99 @@
+
+body{
+     margin: 0;
+     font-family: 'ubuntu', sans-serif;
+ }
+
+/* -----> TYPOGRAPHY <----- */
+
+ h1{
+    font-family: 'Lora',serif;
+    font-size: 2rem;
+    font-weight: 530;
+    color: #143774;
+}
+
+.subtitle{
+    font-weight: 700;
+    color: #1792d2;
+    font-size: .75rem;
+    margin-top: -1.5em;
+}
+
+/*-----> LAYOUT <-----*/
+
+.container{
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.container-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+header{
+    padding: 2em 0;
+    background-color: #fef8f8;
+}
+
+
+/* -----> Navigation <----- */
+
+.nav-list{
+    list-style: none;
+    font-size: 1.1rem;
+    padding-top: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list-item{
+    margin-left: 1em;
+}
+
+nav a{
+    text-decoration: none;
+    color: #707070;
+    font-weight: 700;
+}
+
+
+nav a:hover,
+nav a:focus{
+    color: #414040;
+    font-size: 1.2rem;
+}
+ 
+.current-page{
+    border-bottom: 1px solid #707070;
+}
+
+.current-page:hover{
+    color: #707070;
+}
+
+@media (max-width:675px){
+
+        .container-nav{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .nav-list{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .nav-list-item{
+            margin-top: 1em;
+            margin-right: 3em;
+        }
+
+        header{
+            text-align: center;
+        }
+}
