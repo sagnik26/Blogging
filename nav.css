@@ -2,6 +2,7 @@
 body{
      margin: 0;
      font-family: 'ubuntu', sans-serif;
+     
  }
 
 /* -----> TYPOGRAPHY <----- */
@@ -14,16 +15,19 @@ body{
 }
 
 .subtitle{
-    font-weight: 700;
+    font-weight:bold;
     color: #1792d2;
-    font-size: .75rem;
+    font-size: .7rem;
     margin-top: -1.5em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 3.6px;
 }
 
 /*-----> LAYOUT <-----*/
 
 .container{
-    width: 90%;
+    width: 95%;
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -36,6 +40,8 @@ body{
 header{
     padding: 2em 0;
     background-color: #fef8f8;
+    position: sticky;
+    top: 0px;
 }
 
 
@@ -43,14 +49,19 @@ header{
 
 .nav-list{
     list-style: none;
-    font-size: 1.1rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin-top: 2.4em;
     padding-top: 1em;
     display: flex;
     justify-content: center;
 }
 
 .nav-list-item{
-    margin-left: 1em;
+    margin-left: 2em;
+    letter-spacing: 2.5px;
+    color: #717171;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 nav a{
@@ -63,7 +74,7 @@ nav a{
 nav a:hover,
 nav a:focus{
     color: #414040;
-    font-size: 1.2rem;
+    font-size: 1.05rem;
 }
  
 .current-page{

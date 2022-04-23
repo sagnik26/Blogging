@@ -1,0 +1,88 @@
+/* Layout */
+.container-content{
+    width: 95%;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 3em;
+}
+
+.container-display{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Column-1 */
+.col-1{
+    width: 72%;
+}
+
+.col-1-comment{
+    color: #707070; 
+    margin-top: 2em 0;
+}
+
+.col-1-header{
+    font-family: 'Lora', serif; 
+    color: #143774; 
+    font-weight: 600;
+}
+
+.col-1-content{
+    font-family: 'Ubuntu', sans-serif; 
+    color: #707070; 
+    font-weight: 300; 
+    word-spacing: 3.6px;
+}
+
+.reading{
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 2px;
+    color: #1989c6;
+    text-transform: uppercase;
+    font-size: .75rem;
+}
+
+/*  After page division */
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.article-component{
+    margin-bottom: 3em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.article-component-one{
+    width: 35%;
+}
+
+.article-component-two{
+    width: 60%;
+    padding: 0;
+}
+
+
+/* Column-2 */
+.col-2{
+    width: 23%;
+}
+
+h3{
+    font-family: 'Lora', Serif; 
+    color: #143747; 
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+}
+
+.col-2-border{
+    border: 20px solid #eae6e6; 
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+}
+
